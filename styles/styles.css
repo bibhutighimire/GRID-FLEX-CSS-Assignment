@@ -1,0 +1,109 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+    background-color: seashell;
+}
+.wrapper {    
+    display: grid; 
+    grid-gap:1rem;   
+    grid-template-columns: 1fr 2fr 1fr;
+  
+}
+.logo{padding: 15px;
+    border: 2px solid black;
+}
+.logo img{
+    height: 100%;
+    width: auto;
+}
+
+.topicAndSearch{padding: 15px;
+   
+}
+.menu{padding: 15px;
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+.section{padding: 15px;
+    grid-row: span 2;
+    border: 2px solid black;
+}
+.section li{
+    font-size: 20px;
+    line-height: 40px;
+}
+.imgMain{padding: 15px;
+    border: 2px solid black;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.feature{padding: 15px;
+    border: 2px solid black;
+}
+.feature li{
+    font-size: 20px;
+    line-height: 40px;
+}
+.textBox{padding: 15px;
+    border: 2px solid black;
+}
+.external{padding: 15px;
+    border: 2px solid black;
+    
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+  .external ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    justify-content: flex-start;
+
+  }
+.external li{
+    font-size: 20px;
+    line-height: 40px;
+    margin-right: 85px;
+    
+}
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 15px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  
+  }
+  .topic li{
+      margin: 0px 10px;
+      overflow: hidden;
+      display: inline;
+      font-size: 20px;
+  }
+  .menu li{
+    margin: 0px 40px;
+    display: flex;
+   font-size: 40px;
+    display: inline;
+}
+p{
+    font-size: 20px;
+}
